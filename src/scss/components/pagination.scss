@@ -1,0 +1,30 @@
+.page-numbers {
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+
+    li {
+      margin: 5px;
+      button {
+        line-height: 25px;
+        min-width: 25px;
+        font-size: 18px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+
+        &.active,
+        &:hover {
+          background: rgba(254, 95, 30, 0.05);
+        }
+
+        &.active {
+          font-weight: bold;
+          color: $orange;
+        }
+      }
+    }
+  }
+}
