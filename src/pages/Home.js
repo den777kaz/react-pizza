@@ -74,7 +74,7 @@ const Home = () => {
         />
       </div>
 
-      <h2 className='content__title'>Все пиццы</h2>
+      <h2 className='content__title'>Pizzas</h2>
       <div className='content__items'>
         {/* {items &&
           items.map((pizza) => <PizzaBlock key={pizza.id} {...pizza} />)} */}
