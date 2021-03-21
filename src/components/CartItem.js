@@ -35,9 +35,7 @@ const CartItem = ({
       </div>
       <div className='cart__item-info'>
         <h3>{name}</h3>
-        <p>
-          {type} тесто, {size} см.
-        </p>
+        <p>{/* {type} тесто, {size} см. */}</p>
       </div>
       <div className='cart__item-count'>
         <button
